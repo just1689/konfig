@@ -1,7 +1,7 @@
 module github.com/lalamove/konfig
 
 require (
-	contrib.go.opencensus.io/exporter/ocagent v0.4.6 // indirect
+	contrib.go.opencensus.io/exporter/ocagent v0.5.0 // indirect
 	github.com/Azure/azure-sdk-for-go v26.2.0+incompatible // indirect
 	github.com/Azure/go-autorest v11.5.1+incompatible // indirect
 	github.com/BurntSushi/toml v0.3.1
@@ -54,8 +54,8 @@ require (
 	github.com/gotestyourself/gotestyourself v2.2.0+incompatible // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
-	github.com/grpc-ecosystem/grpc-gateway v1.8.1 // indirect
 	github.com/hashicorp/consul v1.4.2
+	github.com/hashicorp/consul/api v1.1.0
 	github.com/hashicorp/go-gcp-common v0.0.0-20180425173946-763e39302965 // indirect
 	github.com/hashicorp/go-hclog v0.8.0 // indirect
 	github.com/hashicorp/go-memdb v0.0.0-20181108192425-032f93b25bec // indirect
@@ -129,3 +129,5 @@ require (
 	layeh.com/radius v0.0.0-20190118135028-0f678f039617 // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+go 1.13
