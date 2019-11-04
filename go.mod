@@ -1,4 +1,4 @@
-module github.com/lalamove/konfig
+module github.com/just1689/konfig
 
 require (
 	contrib.go.opencensus.io/exporter/ocagent v0.4.6 // indirect
@@ -129,3 +129,5 @@ require (
 	layeh.com/radius v0.0.0-20190118135028-0f678f039617 // indirect
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+go 1.13
